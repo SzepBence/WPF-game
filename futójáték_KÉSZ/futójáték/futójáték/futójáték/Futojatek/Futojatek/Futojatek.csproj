@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\background.gif" />
+    <None Remove="images\newRunner_01.gif" />
+    <None Remove="images\newRunner_02.gif" />
+    <None Remove="images\newRunner_03.gif" />
+    <None Remove="images\newRunner_04.gif" />
+    <None Remove="images\newRunner_05.gif" />
+    <None Remove="images\newRunner_06.gif" />
+    <None Remove="images\newRunner_07.gif" />
+    <None Remove="images\newRunner_08.gif" />
+    <None Remove="images\obstacle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\background.gif" />
+    <Resource Include="images\newRunner_01.gif" />
+    <Resource Include="images\newRunner_02.gif" />
+    <Resource Include="images\newRunner_03.gif" />
+    <Resource Include="images\newRunner_04.gif" />
+    <Resource Include="images\newRunner_05.gif" />
+    <Resource Include="images\newRunner_06.gif" />
+    <Resource Include="images\newRunner_07.gif" />
+    <Resource Include="images\newRunner_08.gif" />
+    <Resource Include="images\obstacle.png" />
+  </ItemGroup>
+
+</Project>
